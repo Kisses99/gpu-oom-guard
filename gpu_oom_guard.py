@@ -13,7 +13,7 @@ by tier and then by GPU memory used. GPU usage is sampled while the system is
 healthy, because nvidia-smi itself can block on the driver lock once memory is
 gone.
 
-Pure standard library, Python >= 3.8. Optional TOML config needs Python >= 3.11.
+Pure standard library, Python >= 3.10. Optional TOML config needs Python >= 3.11.
 """
 from __future__ import annotations
 

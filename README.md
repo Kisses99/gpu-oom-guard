@@ -78,7 +78,7 @@ Each file is in [`hardening/`](hardening/), so you can install them by hand inst
 
 ## Configuration
 
-Copy [`gpu-oom-guard.example.toml`](gpu-oom-guard.example.toml) to `/etc/gpu-oom-guard.toml` (needs Python ≥ 3.11 for TOML; CLI flags work on any Python ≥ 3.8) and `systemctl restart gpu-oom-guard`.
+Copy [`gpu-oom-guard.example.toml`](gpu-oom-guard.example.toml) to `/etc/gpu-oom-guard.toml` (needs Python ≥ 3.11 for TOML; CLI flags work on Python ≥ 3.10) and `systemctl restart gpu-oom-guard`.
 
 Example: never touch a render server unless nothing else is left:
 
